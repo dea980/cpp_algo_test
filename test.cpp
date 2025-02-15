@@ -57,6 +57,7 @@ std::vector<std::string> findPalindromicSubstrings(const std::string& str) {
             palindromes.push_back(str.substr(start, maxLength));
         }
     }
+    return palindromes;
 }
 
 int main() {
